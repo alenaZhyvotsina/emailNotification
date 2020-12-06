@@ -18,7 +18,7 @@ public class EmailController {
 	
 	@PostMapping
 	public void sendEmail(@RequestBody EmailDto emailDto) {
-		emailService.sendSimpleMessage(emailDto.getTo(), emailDto.getSubject(), emailDto.getText());
+		emailService.sendSimpleMessage(emailDto.getTo(), emailDto.getSubject(), emailDto.getText()); 
 	}
 
 }

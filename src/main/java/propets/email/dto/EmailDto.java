@@ -13,6 +13,5 @@ public class EmailDto {
 	}
 	public String getText() {
 		return text;
-	}
-		
+	}		
 }

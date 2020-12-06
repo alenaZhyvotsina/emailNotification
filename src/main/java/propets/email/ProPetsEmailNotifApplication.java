@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProPetsEmailNotifApplication {
 	
 	public static void main(String[] args) {
-		SpringApplication.run(ProPetsEmailNotifApplication.class, args);
+		SpringApplication.run(ProPetsEmailNotifApplication.class, args); 
 	}
 
 }
